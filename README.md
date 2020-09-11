@@ -4,6 +4,8 @@ Tensorflow version 1.4.1
 
 ## Pre-requisite
 
+Docker
+
 You must have AWS IAM access to create role, aws lambda and upload to S3.
 
 Edit `Makefile` and specify value of  `STACK_NAME` and `S3_LAMBDA_BUCKET`
