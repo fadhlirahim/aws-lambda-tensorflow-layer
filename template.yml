@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: 2010-09-09
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  tensorflow 1.4
+
+Resources:
+  LambdaLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: tensorflowLayer
+      Description: tensorflow layer
+      ContentUri: build/layer
+      CompatibleRuntimes:
+        - python3.6
+      LicenseInfo: MIT
+      RetentionPolicy: Retain
+
+Outputs:
+  LayerVersion:
+    Description: Layer ARN Reference
+    Value: !Ref LambdaLayer
