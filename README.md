@@ -39,7 +39,7 @@ make deploy
 
 This command will package the `build/layer` with AWS SAM CLI and upload to S3.
 
-Edit `tempalate.yml` to configure name and compatible runtimes if necessary
+Edit `template.yml` to configure name and compatible runtimes if necessary
 
 
 ## Step 4: Copy the Layer ARN
