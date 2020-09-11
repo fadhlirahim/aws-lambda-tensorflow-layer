@@ -2,6 +2,9 @@
 
 Tensorflow version 1.4.1
 
+Layer unzipped size: 185.6 MB
+
+
 ## Pre-requisite
 
 Docker
@@ -9,6 +12,7 @@ Docker
 You must have AWS IAM access to create role, aws lambda and upload to S3.
 
 Edit `Makefile` and specify value of  `STACK_NAME` and `S3_LAMBDA_BUCKET`
+
 
 
 ## Step 1: Build docker image
@@ -50,7 +54,7 @@ After a successful deployment, copy the Layer ARN output and paste it in your ow
 
 ## Reference
 
-Dependencies
+### Dependencies
 
 ```
 bleach==1.5.0
@@ -66,3 +70,7 @@ werkzeug==1.0.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.
 wheel==0.35.1; python_version >= '3'
 zipp==3.1.0; python_version >= '3.6'
 ```
+
+### Lambda Layers
+
+https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html
