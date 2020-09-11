@@ -1,4 +1,4 @@
-# Tensorflow Lambda Layer
+# Tensorflow Lambda Layer using AWS SAM
 
 Tensorflow version 1.4.1
 
