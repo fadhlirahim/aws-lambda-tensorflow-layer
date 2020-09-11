@@ -50,7 +50,9 @@ Edit `template.yml` to configure name and compatible runtimes if necessary
 
 After a successful deployment, copy the Layer ARN output and paste it in your own lambda app template.yml `Layers` value
 
+Example of output:
 
+![Screenshot 2020-09-11 at 12 44 22 PM](https://user-images.githubusercontent.com/4056/92862121-ebcc6200-f42c-11ea-9723-12857847a725.png)
 
 ## Reference
 
