@@ -7,12 +7,11 @@ Layer unzipped size: 185.6 MB
 
 ## Pre-requisite
 
-Docker
+1. Docker
 
-You must have AWS IAM access to create role, aws lambda and upload to S3.
+2. You must have AWS IAM access to create role, aws lambda and upload to S3.
 
-Edit `Makefile` and specify value of  `STACK_NAME` and `S3_LAMBDA_BUCKET`
-
+3. Edit `Makefile` and specify value of `STACK_NAME` and your `S3_LAMBDA_BUCKET`
 
 
 ## Step 1: Build docker image
