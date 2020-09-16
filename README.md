@@ -2,14 +2,14 @@
 
 Tensorflow version 1.4.1
 
-Layer unzipped size: 185.6 MB
+Layer unzipped size: 185.6 MB chi
 
 
 ## Pre-requisite
 
 1. Docker
 
-2. You must have AWS IAM access to create role, aws lambda and upload to S3.
+2. Install AWS SAM CLI. You must have AWS IAM access to create role, aws lambda and upload to S3.
 
 3. Edit `Makefile` and specify value of `STACK_NAME` and your `S3_LAMBDA_BUCKET`
 
